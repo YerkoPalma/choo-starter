@@ -2,3 +2,8 @@ projectName: <%= projectName %>
 template:
   name: choo-cli
   source: choo-cli
+required:
+  - _choo.yaml
+  - _editorconfig
+  - _gitignore
+  - _package.json
